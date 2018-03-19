@@ -1,0 +1,6 @@
+<FilesMatch "RESUMEBOOK.pdf">
+AuthName "Member Only"
+AuthType Basic
+AuthUserFile /home/wecewebsite/.htpasswd
+require valid-user
+</FilesMatch>
