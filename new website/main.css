@@ -78,5 +78,11 @@ h3 {
 }
 
 .section-body p {
-  font-size: 4vw;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 1000px) {
+  .section-body p {
+    font-size: 1.5em;
+  }
 }
