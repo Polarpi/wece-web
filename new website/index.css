@@ -84,9 +84,9 @@ path {
   /* max-height: 50vh; */
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   #front-img {
-    max-width: 35vw;
+    max-width: 38vw;
   }
 }
 
