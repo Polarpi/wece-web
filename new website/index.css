@@ -74,7 +74,7 @@ path {
 }
 
 .title {
-  padding: 10vw;
+  padding: 5vw;
   position: relative;
   z-index: 1;
 }
@@ -85,7 +85,7 @@ path {
 
 .subheading {
   width: 80%;
-  padding: 1em;
+  padding: 2vw;
   margin: auto;
   background-color: #2eb6ad;
 }
