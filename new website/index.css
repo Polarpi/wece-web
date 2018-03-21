@@ -80,7 +80,8 @@ path {
 }
 
 #front-img {
-  max-width: 40%;
+  max-width: 60vw;
+  max-height: 50vh;
 }
 
 .subheading {
