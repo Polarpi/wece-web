@@ -32,6 +32,12 @@ body {
   color: #20272f;
 }
 
+.sticky-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 .section {
   padding: 2em;
 }
