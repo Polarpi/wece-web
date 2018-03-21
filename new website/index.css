@@ -1,0 +1,109 @@
+/* .body {
+  background-image: "imgs/line1.svg";
+} */
+
+#lines {
+  z-index: -1;
+  position: absolute;
+}
+
+svg {
+  display: block;
+  /* width: 100vw;
+  height: 100vh; */
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  svg {
+    max-height: 80vw;
+  }
+}
+
+path {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #2eb6ad;
+  stroke-width: .3em;
+  stroke-miterlimit: 5;
+}
+
+.path1 {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 5s linear forwards infinite;
+}
+
+.path2 {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 4s linear forwards infinite;
+}
+
+.path3 {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 5s linear forwards infinite;
+}
+
+.path4 {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 6s linear forwards infinite;
+}
+
+.path5 {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 4s linear forwards infinite;
+}
+
+.path6 {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 3s linear forwards infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.subheading {
+  /* color: #2eb6ad; */
+  /* color: #007e92; */
+  /* color: #dee3e3; */
+}
+
+.title {
+  padding: 10vw;
+  position: relative;
+  z-index: 1;
+}
+
+#front-img {
+  max-width: 50%;
+}
+
+.subheading {
+  width: 80%;
+  padding: 1em;
+  margin: auto;
+  background-color: #2eb6ad;
+}
+
+h4 {
+  font-size: 5vw;
+  word-wrap: break-word;
+  /* font-family: 'Oswald'; */
+  font-family: 'IBM Plex Mono';
+}
+
+@media screen and (min-width: 800px) {
+  h4 {
+    font-size: 2.5em;
+  }
+}

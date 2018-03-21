@@ -1,13 +1,15 @@
 body {
     height: 100%;
     margin: 0;
+    /* background-color: #dee3e3; */
     background-color: #20272f;
     color: #ffffff;
-    font-family: 'Source Code Pro';
+    font-family: 'Roboto';
 }
 
 .navbar {
   color: #dee3e3;
+  background-color: #20272f;
 }
 
 .navbar-nav {
