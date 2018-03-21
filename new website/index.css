@@ -74,6 +74,7 @@ path {
 }
 
 .title {
+  margin-top: 50px;
   padding: 5vw;
   position: relative;
   z-index: 1;
