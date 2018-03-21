@@ -1,0 +1,30 @@
+.navbar {
+  color: #dee3e3;
+  background-color: #20272f;
+  font-family: 'IBM Plex Mono';
+  font-size: .8em;
+}
+
+.navbar-nav {
+  float: right;
+  padding-right: 1em;
+  text-align: right;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+  background-color: #dee3e3;
+}
+
+.dropdown-item {
+  color: #20272f;
+}
+
+.sticky-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}

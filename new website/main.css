@@ -1,41 +1,20 @@
 body {
     height: 100%;
     margin: 0;
+    padding: 0;
     /* background-color: #dee3e3; */
     background-color: #20272f;
     color: #ffffff;
     font-family: 'Roboto';
 }
 
-.navbar {
-  color: #dee3e3;
-  background-color: #20272f;
-  font-family: 'IBM Plex Mono';
-  font-size: .8em;
-}
+/* #page {
+  min-height: 100%;
+  position: relative;
+} */
 
-.navbar-nav {
-  float: right;
-  padding-right: 1em;
-  text-align: right;
-}
-
-.navbar-nav > li > a:hover {
-  color: #ffffff !important;
-}
-
-.dropdown-menu {
-  background-color: #dee3e3;
-}
-
-.dropdown-item {
-  color: #20272f;
-}
-
-.sticky-top {
-  position: fixed;
-  width: 100%;
-  top: 0;
+.content {
+  padding-bottom: 40px;
 }
 
 .section {
@@ -64,6 +43,7 @@ h3 {
   /* blink-caret .5s step-end infinite; */
 }
 
+/* https://css-tricks.com/snippets/css/typewriter-effect/ */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
