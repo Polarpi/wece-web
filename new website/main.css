@@ -33,7 +33,7 @@ h3 {
 }
 
 .section-top {
-  padding-top: 10vw;
+  padding-top: 5vw;
 }
 
 .section-title h3 {
@@ -90,6 +90,12 @@ h3 {
   color: #ffffff;
   background-color: #29a39b;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .section-top {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
