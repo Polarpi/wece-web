@@ -89,7 +89,18 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
+  h3 {
+    font-size: 4em;
+  }
+  .section-body {
+    padding: 4vw 12vw 2vw;
+  }
   .section-body p {
     font-size: 1.5em;
+  }
+  .link-btn {
+    font-size: 2em;
+    padding: .5em 1em;
+    border-radius: .6em;
   }
 }
