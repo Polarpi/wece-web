@@ -32,6 +32,10 @@ h3 {
   margin: 0;
 }
 
+.section-top {
+  padding-top: 30px;
+}
+
 .section-title h3 {
   overflow: hidden;
   /* border-right: .15em solid #ffffff; */
