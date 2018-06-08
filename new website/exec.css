@@ -5,15 +5,10 @@
 .img-card {
   margin: 20px auto;
   display: block;
-  /* overflow: hidden; */
   position: relative;
   width: 300px;
   height: 450px;
 }
-
-/* .img-card:hover h4, .img-card:hover h6 {
-  opacity: 1;
-} */
 
 .img-card:hover .exec-pic {
   /* opacity: 0.8; */
@@ -27,6 +22,10 @@
   transition: background .2s, color .2s ease-in;
   background: #2eb6ad;
   color: #ffffff;
+}
+
+.active.img-card {
+  width: 500px;
 }
 
 .card-inner {
@@ -56,6 +55,14 @@
   color: #000000;
 }
 
+.active .exec-text {
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  background: #2eb6ad;
+  color: #ffffff;
+}
+
 .exec-name {
   position: absolute;
   padding-bottom: 45px;
@@ -81,6 +88,11 @@
     height: 375px;
   }
 
+  .active.img-card {
+    width: 350px;
+    max-width: 80vw;
+  }
+
   .exec-pic {
     max-width: 250px;
     max-height: 375px;
@@ -89,6 +101,12 @@
   .exec-text {
     width: 250px;
     height: 80px;
+  }
+
+  .active .exec-text {
+    width: 350px;
+    height: 375px;
+    max-width: 80vw;
   }
 
   .exec-name {
