@@ -69,7 +69,7 @@ h3 {
 
 .section-body p {
   font-family: 'Roboto';
-  font-size: 3vw;
+  font-size: 2.2vw;
 }
 
 .button {
@@ -78,7 +78,7 @@ h3 {
 }
 
 .link-btn {
-  padding: 2vw 4vw;
+  padding: 1.5vw 3vw;
   background-color: #2eb6ad;
   color: #ffffff;
   border-radius: 2vw;
@@ -98,19 +98,33 @@ h3 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .section-body p {
+    font-size: .8em;
+  }
+  .link-btn {
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: .6em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .section-body p {
+    font-size: 1.1em;
+  }
+  .link-btn {
+    font-size: 1.5em;
+    padding: .5em 1em;
+    border-radius: .6em;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   h3 {
     font-size: 4em;
   }
   .section-body {
     padding: 4vw 12vw 2vw;
-  }
-  .section-body p {
-    font-size: 1.5em;
-  }
-  .link-btn {
-    font-size: 2em;
-    padding: .5em 1em;
-    border-radius: .6em;
   }
 }
