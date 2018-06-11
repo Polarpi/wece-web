@@ -61,7 +61,7 @@ h3 {
 .section-body {
   color: #20272f;
   background-color: #dee3e3;
-  padding: 2vw 8vw;
+  padding: 4vw 8vw;
   margin: 4vw;
   border-radius: 10px;
   opacity: .8;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .button {
-  padding: 2vw;
+  padding-top: 2vw;
   text-align: center;
 }
 
@@ -125,6 +125,9 @@ h3 {
     font-size: 4em;
   }
   .section-body {
-    padding: 4vw 12vw 2vw;
+    padding: 4vw 5vw;
+  }
+  .section {
+    padding: 0 10vw;
   }
 }
