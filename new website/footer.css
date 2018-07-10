@@ -6,6 +6,7 @@
   color: #20272f;
   min-height: 40px;
   width: 100%;
+  z-index: 999;
 }
 
 .footer .navbar-brand {
