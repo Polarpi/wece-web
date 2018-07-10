@@ -1,5 +1,10 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer .navbar {
-  /* position: fixed; */
   overflow: hidden;
   background-color: #dee3e3;
   bottom: 0;
