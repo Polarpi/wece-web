@@ -25,37 +25,37 @@ path {
   stroke-miterlimit: 5;
 }
 
-.path1 {
+#path1 {
   stroke-dasharray: 1200;
   stroke-dashoffset: 1200;
   animation: dash 15s linear forwards infinite;
 }
 
-.path2 {
+#path2 {
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
   animation: dash 30s linear forwards infinite;
 }
 
-.path3 {
+#path3 {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
   animation: dash 20s linear forwards infinite;
 }
 
-.path4 {
+#path4 {
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
   animation: dash 12s linear forwards infinite;
 }
 
-.path5 {
+#path5 {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
   animation: dash 20s linear forwards infinite;
 }
 
-.path6 {
+#path6 {
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500;
   animation: dash 30s linear forwards infinite;
