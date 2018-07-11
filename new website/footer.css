@@ -1,13 +1,6 @@
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .footer .navbar {
   overflow: hidden;
   background-color: #dee3e3;
-  bottom: 0;
   color: #20272f;
   min-height: 40px;
   width: 100%;

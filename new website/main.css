@@ -1,12 +1,22 @@
 body {
     height: 100%;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
     /* background-color: #dee3e3; */
     background-color: #20272f;
     color: #ffffff;
     font-family: 'Roboto';
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* #page {
