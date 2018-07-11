@@ -7,7 +7,7 @@
 
 .navbar-brand {
   margin-right: 5px;
-  opacity: .8;
+  opacity: .9;
 }
 
 .navbar-brand:hover {
@@ -15,7 +15,7 @@
 }
 
 .left-navbar img {
-  opacity: .8;
+  opacity: .6;
 }
 
 .left-navbar img:hover {
