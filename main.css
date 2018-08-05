@@ -1,188 +1,151 @@
-/* css for the header, footer, and sidebar */
-
 body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    /* background-color: #dee3e3; */
+    background-color: #20272f;
+    color: #ffffff;
+    font-family: 'Roboto';
 }
 
-/* HEADER */
-
-#header {
-    width: 100%;
-    position: fixed;
-    padding: 20px 0px 0px 0px;
-    font-family: 'Quicksand', Arial, sans-serif;
-    background-color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
-    height: 50px;
-    font-size: 120%;
-    z-index: 3;
-    
-    transition: background-color 0.5s ease, border-bottom 0.5s ease;
-    -moz-transition: background-color 0.5s ease, border-bottom 0.5s ease;
-    -o-transition: background-color 0.5s ease, border-bottom 0.5s ease;
-    -webkit-transition: background-color 0.5s ease, border-bottom 0.5s ease;
-}
-
-.scrolled {
-    background-color: #ffffff !important;
-    border-bottom: 1px solid #c4c4c4;
-}
-
-.headleft, .headleft a, .headleft a:visited, .headleft a:hover{
-    padding-left: 20px;
-    font-family: 'Vibur', Snell Roundhand, cursive;
-    font-size: 120%;
-    text-shadow: 2px 2px 5px #66cc99;
-    color: #63a28d;
-    float: left;
-}
-
-.headright {
-    padding-right: 20px;
-    color: #757575;
-    text-align: right;
-}
-
-#nodropdown {
-    padding: 0px 25px 0px 25px;
-}
-
-#nodropdown:hover {
-    color: #66cc99;
-}
-
-.headright img {
-    vertical-align: middle;
-}
-
-.headleft .menulogo {
-    height: 30px;
-    margin-top: -10px;
-    vertical-align: middle;
-}
-
-/* SIDEBAR */
-#sidebar {
-    width: 100%;
-    position: fixed;
-    margin-top: 71px;
-    padding: 10px 0px 10px 0px;
-    background-color: #ffffff;
-    z-index: 1;
-}
-
-#sidebar a,
-#sidebar a:visited,
-#sidebar a:hover {
-    padding: 0px 50px 0px 50px;
-    display: block;
-    font-family: 'Rajdhani', Arial, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #757575;
-    text-align: right;
-}
-
-#sidebar li,
-#sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px 0px 10px 0px;
-    font-size: 110%;
-}
-
-/* FOOTER */
-/* MAILING FORM */
-
-#mailingform {
-    padding: 10px 50px 10px 50px;
-    background-color: #444444;
-    text-align: center;
-    color: #c4c4c4;
-    font-family: 'Quicksand', Arial, sans-serif;
-}
-
-#mailingform h1 {
-    color: #c4c4c4;
-    font-size: 160%;
-    font-family: 'Comfortaa', "Times New Roman", serif;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#mailingform b {
-    color: #c4c4c4;
-}
-
-input {
-    border: 1px solid #c4c4c4;
-    padding: 5px 10px;
-    margin: 3px;
-    text-align: center;
-}
-
-input[type=text] {
-    border-color: #c4c4c4;
-    background-color: #757575;
-    color: #c4c4c4;
-    font-size: 100%;
-}
-
-input[type=submit] {
-    background-color: #757575;
-    color: #c4c4c4;
-    font-size: 100%;
-     border-radius: 10px;
-}
-
-input::placeholder {
-    color: #c4c4c4;
+#container {
+  min-height: 100vh;
+  position: relative;
 }
 
 #footer {
-    margin: 0;
-    padding: 3px 0px 3px 0px;
-    font-family: 'Quicksand', Arial, sans-serif;
-    background-color: #444444;
-    height: 100%;
-    font-size: 75%;
-    color: #c4c4c4;
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-/* ----------------------------------------
---- FOR DIFFERENT SCREEN RESOLUTIONS ---
----------------------------------------- */
-
-/* menu button */
-@media screen and (max-width: 450px) {
-    #menutext {
-        display: none;
-    }
+.content {
+  padding-bottom: 60px;
 }
 
-/* form boxes */
-@media screen and (max-width: 280px) {
-    input[type=text] {
-        width: 100%;
-    }
-    
-    input[type=submit] {
-        width: 50%;
-    }
+.section {
+  padding: 2em;
 }
 
-/* menu links */
+h3 {
+  font-family: 'IBM Plex Mono';
+  font-size: 6vw;
+  color: #ffffff;
+}
+
+h4 {
+  font-family: 'Roboto';
+  font-size: 4.5vw;
+}
+
+.section-title {
+  padding: 0;
+  margin: 0;
+}
+
+.section-top {
+  padding-top: 5vw;
+}
+
+.section-title h3 {
+  overflow: hidden;
+  /* border-right: .15em solid #ffffff; */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation:
+  typing 3.5s steps(22, end) infinite
+  /* blink-caret .5s step-end infinite; */
+}
+
+/* https://css-tricks.com/snippets/css/typewriter-effect/ */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffffff }
+} */
+
+.section-body {
+  color: #20272f;
+  background-color: #dee3e3;
+  padding: 4vw 8vw;
+  margin: 4vw;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+.section-body p {
+  font-family: 'Roboto';
+  font-size: 2.2vw;
+}
+
+.button {
+  padding-top: 2vw;
+  text-align: center;
+}
+
+.link-btn {
+  padding: 1.5vw 3vw;
+  background-color: #2eb6ad;
+  color: #ffffff;
+  border-radius: 2vw;
+  font-family: 'IBM Plex Mono';
+  font-size: 3vw;
+}
+
+.link-btn:hover {
+  color: #ffffff;
+  background-color: #29a39b;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .section-top {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-body p {
+    font-size: .8em;
+  }
+  h4 {
+    font-size: 20px;
+    min-width: 200px;
+  }
+  .link-btn {
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: .6em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .section-body p {
+    font-size: 1.1em;
+  }
+  .link-btn {
+    font-size: 1.5em;
+    padding: .5em 1em;
+    border-radius: .6em;
+  }
+  h4 {
+    font-size: 2em;
+  }
+}
+
 @media screen and (min-width: 1000px) {
-    #menutext, #menubutton {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    #nodropdown {
-        display: none;
-    }
+  h3 {
+    font-size: 4em;
+  }
+  .section-body {
+    padding: 4vw 5vw;
+  }
+  .section {
+    padding: 0 10vw;
+  }
 }
