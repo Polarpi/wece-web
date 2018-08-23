@@ -72,6 +72,7 @@ h4 {
 .section-body {
   color: #20272f;
   background-color: #dee3e3;
+  border-bottom: 4px solid #bec3c3;
   padding: 4vw 8vw;
   margin: 4vw;
   border-radius: 10px;

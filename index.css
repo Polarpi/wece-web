@@ -95,6 +95,7 @@ path {
   width: 80%;
   padding: 2vw;
   margin: auto;
+  border-bottom: 4px solid #0e968d;
   background-color: #2eb6ad;
   border-radius: 10px;
 }
