@@ -15,8 +15,8 @@ deployment:
     - /bin/cp committees.css $DEPLOYPATH
     - /bin/cp contactus.html $DEPLOYPATH
     - /bin/cp contactus.css $DEPLOYPATH
-    - /bin/cp exec.js $DEPLOYPATH
-    - /bin/cp favicon.ico $DEPLOYPATH
+    # - /bin/cp exec.js $DEPLOYPATH
+    # - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp footer.html $DEPLOYPATH
     - /bin/cp footer.css $DEPLOYPATH
     - /bin/cp navbar.html $DEPLOYPATH
