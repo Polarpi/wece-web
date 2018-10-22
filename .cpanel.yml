@@ -9,19 +9,19 @@ deployment:
     - /bin/cp about.css $DEPLOYPATH
     - /bin/cp board.html $DEPLOYPATH
     - /bin/cp board.css $DEPLOYPATH
-    - /bin/cp calendar.html $DEPLOYPATH
-    - /bin/cp calendar.css $DEPLOYPATH
-    - /bin/cp committees.html $DEPLOYPATH
-    - /bin/cp committees.css $DEPLOYPATH
-    - /bin/cp contactus.html $DEPLOYPATH
-    - /bin/cp contactus.css $DEPLOYPATH
+    # - /bin/cp calendar.html $DEPLOYPATH
+    # - /bin/cp calendar.css $DEPLOYPATH
+    # - /bin/cp committees.html $DEPLOYPATH
+    # - /bin/cp committees.css $DEPLOYPATH
+    # - /bin/cp contactus.html $DEPLOYPATH
+    # - /bin/cp contactus.css $DEPLOYPATH
     # - /bin/cp exec.js $DEPLOYPATH
     # - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp footer.html $DEPLOYPATH
     - /bin/cp footer.css $DEPLOYPATH
     - /bin/cp navbar.html $DEPLOYPATH
     - /bin/cp navbar.css $DEPLOYPATH
-    - /bin/cp newsletters.html $DEPLOYPATH
-    - /bin/cp newsletters.css $DEPLOYPATH
-    - /bin/cp sponsors.html $DEPLOYPATH
-    - /bin/cp sponsors.css $DEPLOYPATH
+    # - /bin/cp newsletters.html $DEPLOYPATH
+    # - /bin/cp newsletters.css $DEPLOYPATH
+    # - /bin/cp sponsors.html $DEPLOYPATH
+    # - /bin/cp sponsors.css $DEPLOYPATH
